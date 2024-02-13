@@ -1,0 +1,9 @@
+application:
+  replicas: 1
+  service:
+    type: LoadBalancer
+  ingress:
+    enable: true
+    className: nginx
+    hosts:
+      - webcolor.10.96.78.106.nip.io
